@@ -24,7 +24,7 @@ public class User {
     private String email;
     @Column(name = "username", nullable = false, length = 50)
     private String username;
-    @Column(name = "hashed_password", nullable = false, length = 32)
+    @Column(name = "hashed_password", nullable = false, length = 64)
     private String hashedPassword;
     @Column(name = "phone_number", nullable = false, length = 10)
     private String phoneNumber;
